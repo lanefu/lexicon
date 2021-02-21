@@ -19,6 +19,7 @@ def provider_parser(subparser):
         "--auth-username", help="specify username for authentication"
     )
     subparser.add_argument("--auth-token", help="specify token for authentication")
+    subparser.add_argument("--api-endpoint", help="easydns api endpoint")
 
 
 class Provider(BaseProvider):
